@@ -1,0 +1,63 @@
+version: "3.1"
+
+rules:
+
+- rule: Decir "Hola" cada vez que el usuario salude
+  steps:
+  - intent: saludar
+  - action: utter_hello
+
+- rule: Decir "Adiós" cada vez que el usuario se despida
+  steps:
+  - intent: despedirse
+  - action: utter_goodbye
+
+- rule: Responder con la información del clima cada vez que el usuario pregunte por el clima
+  steps:
+  - intent: preguntar_clima
+  - action: utter_weather_info
+
+- rule: Responder con la hora actual cada vez que el usuario pregunte por la hora
+  steps:
+  - intent: preguntar_hora
+  - action: utter_current_time
+
+- rule: Ofrecer ayuda cada vez que el usuario pida asistencia
+  steps:
+  - intent: preguntar_por_ayuda
+  - action: utter_help_offer
+
+- rule: Agradecer cada vez que el usuario dé las gracias
+  steps:
+  - intent: agradecer
+  - action: utter_thank_you
+
+- rule: Afirmar cuando el usuario confirme algo
+  steps:
+  - intent: afirmación
+  - action: utter_affirmation
+
+- rule: Negar cuando el usuario niegue algo
+  steps:
+  - intent: negación
+  - action: utter_denial
+
+- rule: Decir "Genial" cada vez que el usuario exprese un estado de ánimo positivo
+  steps:
+  - intent: estado_ánimo_genial
+  - action: utter_feeling_great
+
+- rule: Decir "Lo siento" cada vez que el usuario exprese un estado de ánimo triste
+  steps:
+  - intent: estado_ánimo_triste
+  - action: utter_sorry
+
+- rule: Decir "Soy un bot" cada vez que el usuario desafíe si es un bot
+  steps:
+  - intent: eres_bot
+  - action: utter_iamabot
+
+- rule: Proporcionar informacion del Soporte Tecnico cuando el usuario lo pida
+  steps:
+  - intent: Contactar_Soporte_Sensu
+  - action: utter_soporte_sensu

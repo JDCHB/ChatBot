@@ -1,0 +1,41 @@
+
+ Pasos para creacion de chatbox(rasa)
+ 
+ #Creacion del entorno virtual
+-python -m venv myvenv   O       python3.10 -m venv myvenv
+
+#Entrar al entorno virtual:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+cd myvenv 
+cd .\Scripts\ 
+.\activate
+cd..
+cd..
+
+
+#Actualizacion del pip
+-python -m pip install --upgrade pip
+
+
+#Instalacion de libreria de rasa
+-pip install rasa
+-pip install rasa-sdk
+
+
+#Este comando genera un proyecto por defecto de un chatbot en ingles
+rasa init
+
+#Para entrenar el modelo → rasa train
+#Para ejecutar el servicio del chatbot→ rasa shell
+#para detenerte /stop
+#Para habilitarlo como servicio-->    rasa run --enable-api --cors "*" 
+
+
+
+
+
+
+
+
+#para telegram:
+pip install python-telegram-bot
