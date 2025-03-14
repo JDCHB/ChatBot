@@ -140,3 +140,10 @@ nlu:
     - ¿Si puedo contactar con Soporte Tecnico?
     - ¿Como hablo con el soporte de la pagina web?
     - Necesito ayuda con una informacion de la pagina
+
+- intent: Queso
+  examples: |
+    - Que
+    - Q
+    - K
+    - Qu

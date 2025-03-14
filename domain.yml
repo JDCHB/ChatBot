@@ -60,6 +60,9 @@ responses:
   utter_soporte_sensu:
   - text: "Puedes contactar al soporte tecnico por medio de la pagina, mas preciso en el apartado Contactenos"
 
+  utter_queso:
+  - text: "So"
+    image: "https://cdn.memegenerator.es/imagenes/memes/full/33/8/33081731.jpg"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

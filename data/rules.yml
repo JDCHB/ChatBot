@@ -61,3 +61,8 @@ rules:
   steps:
   - intent: Contactar_Soporte_Sensu
   - action: utter_soporte_sensu
+
+- rule: Cuando diga Que diga So
+  steps:
+  - intent: Queso
+  - action: utter_queso
