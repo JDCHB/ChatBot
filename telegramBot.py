@@ -14,7 +14,7 @@ logging.info('Starting Bot...')
 
 
 async def start_command(update: Update, content: CallbackContext):
-    await update.message.reply_text('Hola! yo soy Tonyo, tu asistente virtual')
+    await update.message.reply_text('Hola! soy Beru, tu asistente virtual')
 
 
 async def help_command(update: Update, content: CallbackContext):
