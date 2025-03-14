@@ -1,0 +1,142 @@
+version: "3.1"
+
+nlu:
+- intent: saludar
+  examples: |
+    - hey
+    - hola
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - buenas
+    - que tal?
+
+- intent: despedirse
+  examples: |
+    - adiós
+    - hasta luego
+    - hasta pronto
+    - nos vemos
+    - me voy
+    - chao
+
+-  intent: preguntar_clima
+   examples: |
+    - ¿cómo está el clima?
+    - ¿qué tiempo hace?
+    - ¿cómo va el clima hoy?
+    - ¿qué tal el clima?
+    - ¿va a llover hoy?
+    - ¿hace calor afuera?
+    - ¿está lloviendo?
+
+- intent: preguntar_hora
+  examples: |
+    - ¿qué hora es?
+    - ¿me puedes decir la hora?
+    - ¿qué hora tienes?
+    - ¿qué hora es ahora?
+    - ¿qué hora es en este momento?
+
+- intent: preguntar_por_ayuda
+  examples: |
+    - ¿me puedes ayudar?
+    - necesito ayuda
+    - ¿puedes ayudarme con esto?
+    - ¿me puedes asistir?
+    - ayúdame, por favor
+    - ¿puedes darme una mano?
+    - ¿puedes ayudarme con algo?
+    - ¿puedes ayudarme con esto?
+
+- intent: agradecer
+  examples: |
+    - gracias
+    - muchas gracias
+    - te lo agradezco
+    - mil gracias
+    - gracias por tu ayuda
+    - gracias, es justo lo que necesitaba
+    - gracias, me has ayudado mucho
+    - gracias, eres muy amable
+    - gracias, me has salvado
+    - gracias, eres un ángel
+    - gracias, me has hecho un gran favor
+    - gracias, eres muy generoso
+    - gracias, me has ayudado mucho
+
+- intent: afirmación
+  examples: |
+    - sí
+    - claro
+    - eso suena bien
+    - correcto
+
+- intent: negación
+  examples: |
+    - no
+    - nunca
+    - no lo creo
+    - no me gusta eso
+    - de ninguna manera
+    - no realmente
+    - no quiero
+    - no gracias
+    - no es necesario
+    - no me interesa
+    - no quiero eso
+    - no lo haré
+    - no, gracias
+
+- intent: estado_ánimo_genial
+  examples: |
+    - perfecto
+    - genial
+    - asombroso
+    - maravilloso
+    - me siento muy bien
+    - estoy genial
+    - estoy increíble
+    - súper emocionado
+    - extremadamente bien
+    - bien
+
+
+- intent: estado_ánimo_triste
+  examples: |
+    - mi día fue horrible
+    - estoy triste
+    - no me siento muy bien
+    - estoy decepcionado
+    - estoy decepcionada
+    - súper triste
+    - estoy tan triste
+    - triste
+    - muy triste
+    - infeliz
+    - no estoy bien
+    - no muy bien
+    - no estoy genial
+
+
+- intent: eres_bot
+  examples: |
+    - ¿eres un bot?
+    - ¿eres un humano?
+    - ¿estoy hablando con un bot?
+    - ¿estoy hablando con un humano?
+    - ¿eres un robot?
+    - ¿eres un programa?
+    - ¿eres un chatbot?
+    - ¿eres un asistente virtual?
+    - ¿eres un inteligencia artificial?
+    - ¿eres un sistema de IA?
+
+- intent: Contactar_Soporte_Sensu
+  examples: |
+    - ¿Como contacto con Soporte?
+    - ¿Como puedo hablar con un administrador?
+    - ¿Sabes a quien le puedo preguntar?
+    - ¿Si puedo contactar con Soporte Tecnico?
+    - ¿Como hablo con el soporte de la pagina web?
+    - Necesito ayuda con una informacion de la pagina

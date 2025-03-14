@@ -1,0 +1,26 @@
+version: "3.1"
+
+stories:
+
+- story: camino feliz
+  steps:
+  - intent: saludar
+  - action: utter_hello
+  - intent: estado_ánimo_genial
+  - action: utter_feeling_great
+
+- story: camino triste
+  steps:
+  - intent: saludar
+  - action: utter_hello
+  - intent: estado_ánimo_triste
+  - action: utter_sorry
+
+- story: camino triste 2
+  steps:
+  - intent: saludar
+  - action: utter_hello
+  - intent: estado_ánimo_triste
+  - action: utter_sorry
+  - intent: negación
+  - action: utter_denial

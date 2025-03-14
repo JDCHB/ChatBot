@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - despedirse
+  - preguntar_clima
+  - preguntar_hora
+  - preguntar_por_ayuda
+  - agradecer
+  - afirmación
+  - negación
+  - estado_ánimo_genial
+  - estado_ánimo_triste
+  - eres_bot
+
+responses:
+  utter_hello:
+  - text: "¡Hola! ¿Cómo estás?"
+
+  utter_happy:
+  - text: "Que bien!!, me alegro!"
+
+  utter_goodbye:
+  - text: "Adiós"
+
+  utter_weather_info:
+  - text: "El clima hoy es soleado y cálido."
+
+  utter_current_time:
+  - text: "La hora actual es: {{ current_time }}"
+
+  utter_help_offer:
+  - text: "Claro, ¿en qué puedo ayudarte?"
+
+  utter_thank_you:
+  - text: "¡De nada! Me alegra poder ayudarte."
+
+  utter_feeling_great:
+  - text: "¡Genial! Me alegra saber que estás bien."
+
+  utter_sorry:
+  - text: "Lo siento mucho, espero que te mejores pronto."
+
+  utter_did_that_help:
+  - text: "¿Te ayudó eso?"
+
+  utter_affirmation:
+  - text: "¡Perfecto!"
+
+  utter_denial:
+  - text: "Entiendo, si necesitas algo más, no dudes en decírmelo."
+
+  utter_iamabot:
+  - text: "Soy un bot, impulsado por Rasa."
+
+  utter_cheer_up:
+  - text: "Aqui esta una imagen de un gato para que te sientas mejor"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_soporte_sensu:
+  - text: "Puedes contactar al soporte tecnico por medio de la pagina, mas preciso en el apartado Contactenos"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
