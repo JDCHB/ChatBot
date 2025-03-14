@@ -1,0 +1,63 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "afirmación": 0,
+        "agradecer": 1,
+        "back": 2,
+        "despedirse": 3,
+        "eres_bot": 4,
+        "estado_ánimo_genial": 5,
+        "estado_ánimo_triste": 6,
+        "negación": 7,
+        "nlu_fallback": 8,
+        "out_of_scope": 9,
+        "preguntar_clima": 10,
+        "preguntar_hora": 11,
+        "preguntar_por_ayuda": 12,
+        "restart": 13,
+        "saludar": 14,
+        "session_start": 15
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_affirmation": 13,
+        "utter_cheer_up": 14,
+        "utter_current_time": 15,
+        "utter_denial": 16,
+        "utter_did_that_help": 17,
+        "utter_feeling_great": 18,
+        "utter_goodbye": 19,
+        "utter_happy": 20,
+        "utter_hello": 21,
+        "utter_help_offer": 22,
+        "utter_iamabot": 23,
+        "utter_queso": 24,
+        "utter_soporte_sensu": 25,
+        "utter_sorry": 26,
+        "utter_thank_you": 27,
+        "utter_weather_info": 28
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}
