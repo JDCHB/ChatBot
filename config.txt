@@ -28,7 +28,8 @@ rasa init
 #Para entrenar el modelo → rasa train
 #Para ejecutar el servicio del chatbot→ rasa shell
 #para detenerte /stop
-#Para habilitarlo como servicio-->    rasa run --enable-api --cors "*" 
+#Para habilitarlo como servicio-->    rasa run --enable-api --cors "*" o rasa run --enable-api --cors "*" --port 5006
+
 
 
 

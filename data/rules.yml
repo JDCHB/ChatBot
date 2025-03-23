@@ -62,6 +62,76 @@ rules:
   - intent: Contactar_Soporte_Sensu
   - action: utter_soporte_sensu
 
+- rule: Cambiar la contraseña cuando el usuario lo solicite
+  steps:
+    - intent: cambiar_contraseña
+    - action: utter_cambiar_contraseña
+
+- rule: Le da instrucciones al usuario para registrarse
+  steps:
+    - intent: registrar_usuario
+    - action: utter_registro_usuario
+
+- rule: Informar sobre la batería del dispositivo cuando el usuario lo pregunte
+  steps:
+    - intent: batería_dispositivo
+    - action: utter_bateria_dispositivo
+
+- rule: Reportar un problema cuando el usuario lo indique
+  steps:
+    - intent: reportar_problema
+    - action: utter_reportar_problema
+
+- rule: Proporcionar información sobre el servicio de SensuTrack
+  steps:
+    - intent: información_servicio
+    - action: utter_informacion_servicio
+
+- rule: Mostrar el historial de ubicaciones cuando el usuario lo pida
+  steps:
+    - intent: obtener_historial
+    - action: utter_obtener_historial
+
+- rule: Notificar si hay actualizaciones pendientes
+  steps:
+    - intent: solicitar_actualización
+    - action: utter_solicitar_actualización
+
+- rule: Mostrar la ubicación en tiempo real cuando el usuario lo pida
+  steps:
+    - intent: ubicación_tiempo_real
+    - action: utter_ubicación_tiempo_real
+
+- rule: Dar instrucciones paso a paso de como modificar los datos del usuario cuando el usuario lo solicite
+  steps:
+    - intent: modificar_datos_usuario
+    - action: utter_modificar_datos_usuario
+
+- rule: Consultar los términos y condiciones cuando el usuario lo pida
+  steps:
+    - intent: consultar_términos
+    - action: utter_consultar_términos
+
+- rule: Mostrar precios cuando el usuario lo pregunte
+  steps:
+    - intent: preguntar_precio
+    - action: utter_preguntar_precio
+
+- rule: Confirmar la identidad del asistente cuando el usuario lo pregunte
+  steps:
+    - intent: confirmar_identidad
+    - action: utter_confirmar_identidad
+
+- rule: Explicar el funcionamiento de SensuTrack cuando el usuario lo pregunte
+  steps:
+    - intent: preguntar_funcionamiento
+    - action: utter_preguntar_funcionamiento
+
+- rule: Informar sobre la duración de la batería del dispositivo
+  steps:
+    - intent: preguntar_duración_batería
+    - action: utter_preguntar_duración_batería
+
 - rule: Cuando diga Que diga So
   steps:
   - intent: Queso

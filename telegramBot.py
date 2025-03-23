@@ -18,7 +18,7 @@ async def start_command(update: Update, content: CallbackContext):
 
 
 async def help_command(update: Update, content: CallbackContext):
-    await update.message.reply_text('Oí un sonido de angustia, ¿Tienes algun problema?')
+    await update.message.reply_text('Parece que tienes un problema, ¿en que puedo ayudarte??')
 
 
 async def custom_command(update: Update, content: CallbackContext):

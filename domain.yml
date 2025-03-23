@@ -12,13 +12,26 @@ intents:
   - estado_ánimo_genial
   - estado_ánimo_triste
   - eres_bot
+  - Contactar_Soporte_Sensu
+  - cambiar_contraseña
+  - registrar_usuario
+  - batería_dispositivo
+  - reportar_problema
+  - información_servicio
+  - obtener_historial
+  - solicitar_actualización
+  - ubicación_tiempo_real
+  - modificar_datos_usuario
+  - consultar_términos
+  - preguntar_precio
+  - confirmar_identidad
+  - preguntar_funcionamiento
+  - preguntar_duración_batería
+  - Queso
 
 responses:
   utter_hello:
   - text: "¡Hola! ¿Cómo estás?"
-
-  utter_happy:
-  - text: "Que bien!!, me alegro!"
 
   utter_goodbye:
   - text: "Adiós"
@@ -35,6 +48,63 @@ responses:
   utter_thank_you:
   - text: "¡De nada! Me alegra poder ayudarte."
 
+  utter_affirmation:
+  - text: "¡Perfecto!"
+
+  utter_denial:
+  - text: "Entiendo, si necesitas algo más, no dudes en decírmelo."
+
+  utter_iamabot:
+  - text: "Si, soy un bot, tu asistente virtual impulsado por Rasa."
+
+  utter_soporte_sensu:
+  - text: "Puedes contactar al soporte tecnico por medio de la pagina, mas preciso en el apartado Contactenos"
+
+  utter_cambiar_contraseña:
+  - text: "Claro, puedes cambiar la contraseña desde la pagina de inicio de sesion, solo ingresa a ---Olvidaste la contraseña?--- y siga los pasos"
+
+  utter_registro_usuario:
+  - text: "Claro, puedes registrarte desde la pagina de inicio de sesion, solo ingresa a ---No tienes cuenta? Registrate!!--- e ingresa los datos que se te soliciten."
+
+  utter_bateria_dispositivo:
+  - text: "El dispositivo tiene un 60% de su bateria"
+
+  utter_reportar_problema:
+  - text: "Lamento escuchar que estás teniendo problemas. Si necesitas asistencia inmediata puedes contactar con nuestro soporte técnico desde el apartado ---Contactenos---"
+
+  utter_informacion_servicio:
+  - text: "SensuTrack es una plataforma diseñada para ayudar en el monitoreo y gestión de personas ciegas. Utiliza tecnología GPS para rastrear su ubicación en tiempo real y proporciona herramientas para mejorar su seguridad y autonomía, cualquier persona interesada en facilitar la movilidad de personas con discapacidad visual puede utilizarla."
+
+  utter_obtener_historial:
+  - text: "Para ver el historial de ubicaciones, puedes acceder a la sección 'Historial' en tu cuenta. Ahí podrás revisar los movimientos pasados y obtener más detalles sobre las ubicaciones anteriores."
+
+  utter_solicitar_actualización:
+  - text: "Actualmente no hay actualizaciones pendientes. Te avisaremos cuando haya una nueva versión disponible. ¡Mantente atento!"
+
+  utter_ubicación_tiempo_real:
+  - text: "Puedes ver la ubicación en tiempo real en la sección de 'Ubicación Actual' de la plataforma."
+
+  utter_modificar_datos_usuario:
+  - text: "Para modificar los datos del usuario, inicie sesión en la plataforma. Luego, acceda al menú de configuración haciendo clic en el nombre de la aplicación ubicado en la parte superior izquierda de la interfaz."
+
+  utter_consultar_términos:
+  - text: "Puedes consultar los términos y condiciones del servicio en el enlace de 'Términos de Uso' ubicado en la parte inferior de la página principal. Haz clic en dicho enlace para acceder al documento completo."
+
+  utter_preguntar_precio:
+  - text: "Los precios y planes disponibles se muestran después de iniciar sesión en la aplicación. Simplemente inicia sesión y podrás ver las opciones de suscripción y sus costos."
+
+  utter_confirmar_identidad:
+  - text: "Soy un asistente virtual creado para ayudarte con cualquier consulta sobre SensuTrack, mucho gusto mi nombre es Beru."
+
+  utter_preguntar_funcionamiento:
+  - text: "Luego de seguir los pasos para comprar el GPS con tu membresía o suscripción, el dispositivo será enviado a tu casa. Una vez lo recibas, podrás colocarlo a tu ser querido y, a partir de ahí, podrás observar el rastreo en tiempo real desde la página. Solo necesitas iniciar sesión y podrás ver la ubicación de los dispositivos en un mapa. Además, puedes establecer zonas seguras, como por ejemplo, la casa. Si creas una zona segura y la activas, recibirás un correo si tu ser querido sale de ella. Para más detalles, por favor consulta las opciones dentro de la aplicación."
+
+  utter_preguntar_duración_batería:
+  - text: "La duración de la batería del dispositivo depende del uso. En condiciones normales, la batería puede durar entre 48 y 72 horas. Te recomendamos cargar el GPS cuando la batería llegue al 20% para asegurar su funcionamiento continuo."
+
+  utter_happy:
+  - text: "Que bien!!, me alegro!"
+
   utter_feeling_great:
   - text: "¡Genial! Me alegra saber que estás bien."
 
@@ -44,25 +114,14 @@ responses:
   utter_did_that_help:
   - text: "¿Te ayudó eso?"
 
-  utter_affirmation:
-  - text: "¡Perfecto!"
-
-  utter_denial:
-  - text: "Entiendo, si necesitas algo más, no dudes en decírmelo."
-
-  utter_iamabot:
-  - text: "Soy un bot, impulsado por Rasa."
-
   utter_cheer_up:
   - text: "Aqui esta una imagen de un gato para que te sientas mejor"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_soporte_sensu:
-  - text: "Puedes contactar al soporte tecnico por medio de la pagina, mas preciso en el apartado Contactenos"
-
   utter_queso:
   - text: "So"
-    image: "https://cdn.memegenerator.es/imagenes/memes/full/33/8/33081731.jpg"
+    image: "https://th.bing.com/th/id/OIP.HjwZrGDEaKvJcqIFDvPoFQHaHX?rs=1&pid=ImgDetMain"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

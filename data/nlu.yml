@@ -141,9 +141,131 @@ nlu:
     - ¿Como hablo con el soporte de la pagina web?
     - Necesito ayuda con una informacion de la pagina
 
+
+- intent: cambiar_contraseña
+  examples: |
+    - Quiero cambiar mi contraseña
+    - ¿Cómo cambio mi clave?
+    - Necesito actualizar mi contraseña
+    - ¿Dónde cambio mi clave?
+
+- intent: registrar_usuario
+  examples: |
+    - Quiero registrarme
+    - ¿Cómo me registro?
+    - Necesito crear una cuenta
+    - ¿Dónde puedo registrarme?
+
+- intent: batería_dispositivo
+  examples: |
+    - ¿Cuánta batería tiene el dispositivo?
+    - ¿El GPS está cargado?
+    - ¿Cuál es el nivel de batería del sensor?
+    - ¿El dispositivo tiene suficiente carga?
+    - ¿El dispositivo está cargado?
+    - ¿El dispositivo tiene batería?
+    - ¿El dispositivo está sin carga?
+    - ¿El dispositivo está sin batería?
+
+- intent: reportar_problema
+  examples: |
+    - Quiero reportar un problema
+    - Algo no está funcionando bien
+    - Hay un error en la página
+    - El sistema no responde
+    - Necesito reportar un problema
+    - ¿Cómo puedo reportar un problema?
+    - ¿Dónde puedo reportar un problema?
+    - ¿Qué puedo hacer si el sistema no funciona correctamente?
+
+- intent: información_servicio
+  examples: |
+    - ¿Qué es SensuTrack?
+    - ¿Cómo funciona SensuTrack?
+    - ¿Para qué sirve esta plataforma?
+    - ¿Quiénes pueden usar SensuTrack?
+
+- intent: obtener_historial
+  examples: |
+    - Quiero ver el historial de ubicaciones
+    - ¿Cómo reviso los movimientos pasados?
+    - ¿Dónde puedo ver el historial?
+    - ¿Cómo puedo ver el historial de ubicaciones?
+    - ¿Qué puedo hacer para ver el historial de ubicaciones?
+
+- intent: solicitar_actualización
+  examples: |
+    - ¿Hay nuevas actualizaciones?
+    - ¿Cuándo será la próxima versión?
+    - Quiero actualizar la aplicación
+    - ¿Cómo instalo la última versión?
+    - ¿Cómo puedo obtener la última versión?
+
+- intent: ubicación_tiempo_real
+  examples: |
+    - ¿Dónde está el usuario ahora?
+    - Quiero ver la ubicación en tiempo real
+    - ¿Cómo veo la posición actual?
+    - ¿Dónde puedo ver la ubicación en tiempo real?
+    - ¿Cómo puedo ver la ubicación actual?
+
+- intent: modificar_datos_usuario
+  examples: |
+    - Quiero cambiar mis datos
+    - ¿Cómo edito mi información?
+    - Necesito actualizar mi perfil
+    - ¿Cómo puedo cambiar mi información?
+    - ¿Cómo puedo editar mi perfil?
+
+- intent: consultar_términos
+  examples: |
+    - ¿Cuáles son los términos y condiciones?
+    - Quiero ver las políticas del servicio
+    - ¿Cómo puedo ver los términos de uso?
+    - ¿Dónde puedo ver los términos de servicio?
+
+- intent: preguntar_precio
+  examples: |
+    - ¿Cuánto cuesta?
+    - ¿Cuál es el precio?
+    - ¿Es gratis la aplicación?
+    - ¿Cuánto tengo que pagar para tener acceso a SensuTrack?
+    - ¿Cuánto vale la aplicación?
+    - ¿Cuál es el costo?
+    - ¿Cuál es el precio de la aplicación?
+    - ¿Cuál es el costo de la aplicación?
+
+- intent: confirmar_identidad
+  examples: |
+    - ¿Quién eres?
+    - ¿Cómo te llamas?
+    - ¿Tienes un nombre?
+    - ¿Cuál es tu nombre?
+    - ¿Cómo te puedo llamar?
+
+- intent: preguntar_funcionamiento
+  examples: |
+    - ¿Cómo funciona?
+    - ¿Me puedes explicar cómo se usa?
+    - ¿Cómo se hace?
+    - ¿Puedes explicarme cómo usarlo?
+    - ¿Cómo lo utilizo?
+    - ¿Cómo funciona la aplicación?
+    - ¿Cómo funciona SensuTrack?
+
+- intent: preguntar_duración_batería
+  examples: |
+    - ¿Cuánto dura la batería del dispositivo?
+    - ¿Cuánto tiempo aguanta la batería?
+    - ¿Cada cuánto debo cargar el GPS?
+    - ¿La batería dura todo el día?
+    - ¿Cuánto tiempo se mantiene encendido el dispositivo?
+    - ¿La bateria cuanto tiempo dura?
+
 - intent: Queso
   examples: |
     - Que
     - Q
     - K
     - Qu
+
